@@ -22,3 +22,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Bergen";
+  src: url('./assets/fonts/BergenMono-Regular.woff');
+}

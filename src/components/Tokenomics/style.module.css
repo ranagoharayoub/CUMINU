@@ -1,5 +1,66 @@
 .main {
   width: 100%;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   background-color: #161616;
+  display: flex;
+}
+
+.designTitle{
+  display: flex;
+  height: max-content;
+  width: 100%;
+  height: 10vmax;
+  /* background-color: aquamarine; */
+}
+
+.design{
+  height: 100%;
+  display: flex;
+}
+
+.design>img{
+  object-fit: contain;
+}
+
+
+.Title{
+  display: flex;
+  align-items: center;
+  font-family: "helveticaMedium";
+  font-weight: bold;
+  color: #F8F7F7;
+  margin-left: 2vmax;
+  font-size: 5vmax;
+}
+
+.text{
+  margin-top: 3vmax;
+  margin-left: 8.5vmax;
+  color: #A2A2A2;
+  font-size: 2.5vmax;
+}
+
+.btn{
+  margin-top: 3vmax;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8.5vmax;
+}
+
+.btn1 , .btn2{
+  width: 15vmax;
+  background-color: #F91382;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vmax 2vmax;
+  border-radius: 0.8vmax;
+  font-family: "Bergen";
+  font-size: 1.5vmax;
+  font-weight: bold;
+  color: #161616;
+}
+
+.btn2{
+  background-color: #00F3AA;
 }

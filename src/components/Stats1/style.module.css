@@ -1,6 +1,72 @@
-.main {
+.main{
   width: 100%;
-  min-height: 50vh;
   background-color: #161616;
-  background-color: aquamarine;
+}
+
+.upper, .middle, .bottom{
+  display: flex;
+  width: 100%;
+  /* background-color: aquamarine; */
+  justify-content: space-between;
+ 
+}
+
+.upper{
+  margin-top: 10vmax;
+}
+
+.middle{
+  justify-content: center;
+  margin: 5vmax 0px;
+}
+
+.titlePrice{
+  border-left: 0.5vmax solid #A2A2A2;
+  padding-left: 0.5vmax;
+}
+
+.title{
+  color: #F91382;
+  font-family: "Bergen";
+  font-weight: bold;
+  font-size: 2.3vmax;
+ 
+}
+
+.price{
+  font-family: "Bergen";
+  color: #F8F7F7;
+  font-size: 5vmax;
+  
+}
+
+.btn{
+  width: 15vmax;
+  background-color: #F91382;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vmax 2vmax;
+  border-radius: 0.8vmax;
+  font-family: "Bergen";
+  font-size: 1.5vmax;
+  font-weight: bold;
+  color: #161616;
+  margin: 0px 2vmax;
+}
+
+.btn>img{
+  width: 1.5vmax;
+  /* height: 1vmax; */
+  /* background-color: #A2A2A2; */
+}
+
+.bottom{
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "helveticaMedium";
+  font-weight: bold;
+  color: #A2A2A2;
+  font-size: 3vmax;
+  margin-bottom: 10vmax;
 }
