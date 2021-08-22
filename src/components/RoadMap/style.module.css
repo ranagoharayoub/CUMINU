@@ -1,0 +1,63 @@
+.main {
+    width: 100%;
+    min-height: 50vh; 
+    background-color: #161616;
+    display: flex;
+  }
+
+.logoCont{
+    height: 89vmax;
+    width: 5vmax;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.line{
+    margin-top: 5vmax;
+    height: 100%;
+    width: 0.3vmax;
+    background-color: #F8F7F7;
+    align-self: flex-end;
+}
+
+.logoCont>img{
+    width: 4vmax;
+    object-fit: contain;
+}
+
+.RoadMap{
+    flex: 1;
+    /* background-color: aqua; */
+    padding-left: 3vmax;
+    display: flex;
+    flex-direction: column;
+}
+
+.roadTitle{
+    font-family: "helveticaMedium";
+    font-weight: bold;
+    color: #F8F7F7;
+    font-size: 3vmax;
+}
+
+.token{
+    font-family: "helveticaExtraBold";
+    margin-top: 5vmax;
+    font-size: 2vmax;
+    color: #F91382;
+    display: flex;
+    align-items: center;
+}
+
+.token>img{
+    margin-left: 1vmax;
+    height: 2vmax;
+}
+
+.subtitle{
+    font-family: "helveticaBold";
+    color: #E4E4E4;
+    font-size: 1.5vmax;
+}

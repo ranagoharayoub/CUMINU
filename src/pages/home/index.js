@@ -10,6 +10,8 @@ import donutIcon from "assets/images/donut.svg";
 import styles from "./style.module.css";
 import clsx from "clsx";
 import Tokenomics from "components/Tokenomics";
+import RoadMap from "components/RoadMap";
+import Platform1 from "components/Platform1";
 
 const Home = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -272,9 +274,10 @@ const Home = () => {
         </div>
         {/* Hero End */}
       </header>
-      {/* Stats1 Start*/}
       <Stats1></Stats1>
       <Tokenomics></Tokenomics>
+      <RoadMap></RoadMap>
+      <Platform1></Platform1>
     </>
   );
 };

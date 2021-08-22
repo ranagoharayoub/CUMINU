@@ -1,0 +1,52 @@
+.main {
+    width: 100%;
+    min-height: 50vh; 
+    background-color: #161616;
+    display: flex;
+  }
+
+  .join{
+    padding-left: 5vmax;
+    width: 100%;
+    color: #F91382;
+    font-size: 2vmax;
+    font-family: "helveticaBold";
+  }
+
+  .get{
+    padding-left: 5vmax;
+    font-size: 7vmax;
+    font-weight: bold;
+    color: #F8F7F7;
+  }
+
+  .enjoy{
+    padding-left: 5vmax;
+    margin-top: 3vmax;
+    font-size: 2vmax;
+    color: #A2A2A2;
+  }
+
+  .btn{
+    padding-left: 5vmax;
+    margin-top: 5vmax;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .btn>button{
+    
+    width: 22vmax;
+    background-color: #F91382;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vmax 2vmax;
+    border-radius: 0.8vmax;
+    font-family: "Bergen";
+    font-size: 1.5vmax;
+    font-weight: bold;
+    color: #161616;
+  }
