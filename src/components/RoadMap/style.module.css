@@ -23,7 +23,7 @@
 }
 
 .logoCont>img{
-    width: 4vmax;
+    width: 5vmax;
     object-fit: contain;
 }
 
@@ -39,7 +39,8 @@
     font-family: "helveticaMedium";
     font-weight: bold;
     color: #F8F7F7;
-    font-size: 3vmax;
+    font-size: 5vmax;
+    margin-top: -1vmax;
 }
 
 .token{

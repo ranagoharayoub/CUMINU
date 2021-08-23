@@ -24,7 +24,7 @@ function Tokenomics() {
                     <span
                     className="block text-pink-800"
                     style={{
-                        fontFamily: "helvetica",
+                        fontFamily: "helveticaBold",
                         fontWeight: "normal",
                         fontStyle: "normal",
                         fontSize:"5vmax",
