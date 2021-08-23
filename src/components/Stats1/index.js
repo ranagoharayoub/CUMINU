@@ -50,7 +50,7 @@ function Stats1() {
 
                 <div className={styles.middle}>
 
-                    <div className={styles.btn}>
+                    <div className={styles.btn} style={{marginRight:"49.84px"}}>
                         <img src={chart} alt='img'></img>
                         <div>LIVE CHART</div>
                     </div>
@@ -70,7 +70,7 @@ function Stats1() {
                         fontFamily: "helvetica",
                         fontWeight: "normal",
                         fontStyle: "normal",
-                        fontSize:"5vmax",
+                        fontSize:"80px",
                         marginLeft:"1vmax"
                     }}
                     >
@@ -91,7 +91,7 @@ function Stats1() {
 
                         from existence.
                     </span>
-                    <span>They no longer exist in any wallet, dead or otherwise</span> 
+                    <span style={{color:'#F91382', lineHeight:"2"}}>They no longer exist in any wallet, dead or otherwise</span> 
                 </p>
 
             </div>
